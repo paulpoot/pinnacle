@@ -1,0 +1,42 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "anim.js": {
+      "files": [
+        "scripts/anim.js"
+      ]
+    },
+    "modernizr.js": {
+      "bower": ["modernizr"]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "velocity.js": {
+      "bower": ["velocity"]
+    }
+  },
+  "paths": {
+    "source": "src/",
+    "dist": "assets/"
+  },
+  "config": {
+    "devUrl": "http://localhost/paulpoot"
+  }
+}

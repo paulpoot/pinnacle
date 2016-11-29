@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------
+# Dependencies
+--------------------------------------------------------------*/
+// bower:scss
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../bower_components/slick-carousel/slick/slick.scss";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+// endbower
+
+/*--------------------------------------------------------------
+# Common
+--------------------------------------------------------------*/
+@import "common/global";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "components/masthead";

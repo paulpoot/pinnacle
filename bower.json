@@ -1,0 +1,33 @@
+{
+  "name": "pinnacle",
+  "authors": [
+    "Paul Poot <info@paulpoot.eu>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "slick-carousel": "^1.5.9",
+    "font-awesome": "fontawesome#^4.5.0",
+    "imgLiquid": "^0.9.944",
+    "modernizr": "2.8.2",
+    "velocity": "1.2.3"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "./assets/stylesheets/_bootstrap.scss*",
+        "./assets/javascripts/bootstrap.js*"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "./scss/font-awesome.scss",
+        "./fonts/*"
+      ]
+    },
+    "modernizr": {
+      "main": "./modernizr.js"
+    }
+  }
+}

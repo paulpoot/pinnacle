@@ -1,0 +1,22 @@
+{
+    "name": "paulpoot/pinnacle",
+    "type": "october-theme",
+    "description": "Pinnacle OctoberCMS starter theme.",
+    "keywords": ["pinnacle", "octobercms", "starter", "theme"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Poot",
+            "website": "paulpoot.eu"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
