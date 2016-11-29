@@ -1,0 +1,7 @@
+# Dependency directories
+node_modules
+bower_components
+
+# Optional npm cache directory
+.npm
+
