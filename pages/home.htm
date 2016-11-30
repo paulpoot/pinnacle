@@ -1,8 +1,20 @@
 title = "Pinnacle"
 url = "/"
 layout = "default"
+is_hidden = 0
 ==
-
 <div class="masthead liquid">
   <img src="{{ 'assets/images/background.jpg'|theme }}" />
+  <div class="masthead-overlay">
+    <div class="masthead-text">
+      <h1>OctoberCMS evolved.</h1>
+      <h3>A starter theme for 2017.</h3>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  <div class="container">
+    {% content "home.htm" %}
+  </div>
 </div>

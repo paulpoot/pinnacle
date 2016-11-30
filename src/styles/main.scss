@@ -1,8 +1,13 @@
 /*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+@import "common/variables";
+
+/*--------------------------------------------------------------
 # Dependencies
 --------------------------------------------------------------*/
 // bower:scss
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
 @import "../../bower_components/slick-carousel/slick/slick.scss";
 @import "../../bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
@@ -15,4 +20,13 @@
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
-@import "components/masthead";
+
+/*--------------------------------------------------------------
+# Partials
+--------------------------------------------------------------*/
+@import "partials/footer";
+@import "partials/masthead";
+
+/*--------------------------------------------------------------
+# Pages
+--------------------------------------------------------------*/

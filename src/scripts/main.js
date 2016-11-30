@@ -25,6 +25,7 @@
                 }, 100);
 
                 $(".liquid").imgLiquid();
+
             },
             finalize: function() {
                 // JavaScript to be fired on all pages, after page specific JS is fired

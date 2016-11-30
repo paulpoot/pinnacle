@@ -1,22 +1,25 @@
 <!-- Nav -->
-<nav id="layout-nav" class="navbar navbar-inverse navbar-fixed-top navbar-autohide" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ 'home'|page }}">October Demo</a>
-        </div>
-        <div class="collapse navbar-collapse navbar-main-collapse">
-            <ul class="nav navbar-nav">
-                <li class="separator hidden-xs"></li>
-                <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Basic concepts</a></li>
-                <li class="{% if this.page.id == 'ajax' %}active{% endif %}"><a href="{{ 'ajax'|page }}">AJAX framework</a></li>
-                <li class="{% if this.page.id == 'plugins' %}active{% endif %}"><a href="{{ 'plugins'|page }}">Plugin components</a></li>
-            </ul>
-        </div>
+<nav class="navbar navbar-fixed-top navbar-light bg-faded">
+  <div class="container">
+    <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="collapse navbar-toggleable-sm" id="navbarResponsive">
+      <a class="navbar-brand" href="{{ 'home'|page }}">Pinnacle</a>
+      <ul class="nav navbar-nav float-right">
+        <li class="nav-item {% if this.page.id == 'home' %}active{% endif %}">
+          <a class="nav-link" href="{{ 'home'|page }}">Home
+            {% if this.page.id == 'home' %}
+              <span class="sr-only">(current)</span>
+            {% endif %}
+          </a>
+        </li>
+        <li class="nav-item {% if this.page.id == 'example' %}active{% endif %}">
+          <a class="nav-link" href="{{ 'example'|page }}">Example
+            {% if this.page.id == 'example' %}
+              <span class="sr-only">(current)</span>
+            {% endif %}
+          </a>
+        </li>
+      </ul>
     </div>
+  </div>
 </nav>
