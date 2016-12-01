@@ -37,6 +37,6 @@
     "dist": "assets/"
   },
   "config": {
-    "devUrl": "http://localhost/paulpoot"
+    "devUrl": "http://localhost/pinnacle"
   }
 }
