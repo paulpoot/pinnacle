@@ -3,6 +3,17 @@ A modern OctoberCMS starter theme based on the Sage theme by Roots.
 
 `Disclaimer: This theme is not finished. Therefore not everything may work as intended. It is not recommended to use this theme in production environments.`
 
+## Features
+* NPM, Bower and Gulp
+* Bootstrap v4 alpha 5
+* FontAwesome 4
+* Browsersync
+* Asset Builder
+* Javascript DOM-based routing
+* Slick slider
+* imgLiquid  
+... and even more good stuff!
+
 ## Requirements
 * See requirements for OctoberCMS. You can find them [here](https://octobercms.com/docs/setup/installation#system-requirements).
 * Node.js (not needed on your server, you can install Node locally to build your assets on your computer)
@@ -17,7 +28,7 @@ A modern OctoberCMS starter theme based on the Sage theme by Roots.
 1. Afterwards, you should be able to run `gulp` to build the assets or `gulp watch` to watch for changes, build automatically and open a browsersync tab.
 1. Have fun developing!
 
-## How to use Pinnacle
+## What are all these files doing here?
 If you check the theme folder, you'll notice that there are a few new files and folders:
 
 * **bower.json**  
