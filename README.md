@@ -24,9 +24,9 @@ If you check the theme folder, you'll notice that there are a few new files and 
   This file contains the bower dependencies for Pinnacle.
 * **gulpfile.js**  
   The gulpfile contains all the tasks that Gulp runs on builds.
-* **package.json**
+* **package.json**  
   This file contains the packages for Node.
-* **src/manifest.json**
+* **src/manifest.json**  
   This manifest contains the source SCSS and JS that will be compiled to the assets folder.
 
 * **src/**  
