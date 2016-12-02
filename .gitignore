@@ -6,4 +6,8 @@ bower_components
 .npm
 
 # Build directory
-assets
+assets/fonts/*
+assets/images/*
+assets/scripts/*
+assets/styles/*
+!assets/images/theme-preview.png
