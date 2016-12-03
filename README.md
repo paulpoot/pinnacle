@@ -1,7 +1,7 @@
 # Pinnacle
-A modern OctoberCMS starter theme based on the Sage theme by Roots.
+Pinnacle is a modern starter theme for OctoberCMS. It's based on the Sage theme by Roots for Wordpress and contains all the tools you need to develop high quality themes with a modern workflow.
 
-`Disclaimer: This theme is not finished. Therefore not everything may work as intended. It is not recommended to use this theme in production environments.`
+Pinnacle is on the OctoberCMS Market. Check it out [here](https://octobercms.com/theme/paulpoot-pp-pinnacle). Enjoying the theme? Feel free to leave a donation!
 
 ## Features
 * NPM, Bower and Gulp
