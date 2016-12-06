@@ -16,7 +16,9 @@ Pinnacle is on the OctoberCMS Market. Check it out [here](https://octobercms.com
 
 ## Requirements
 * See requirements for OctoberCMS. You can find them [here](https://octobercms.com/docs/setup/installation#system-requirements).
-* Node.js (not needed on your server, you can install Node locally to build your assets on your computer)
+* Node.js 4.4.4 (not needed on your server, you can install Node locally to build your assets on your computer)
+
+I have been notified of a bug with later versions of Node. I'm currently still investigating, but if something doesn't work, I recommend downgrading to 4.4.4.
 
 ## Installation
 1. Install OctoberCMS. See the instructions [here](https://octobercms.com/docs/setup/installation).

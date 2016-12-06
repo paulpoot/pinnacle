@@ -14,11 +14,11 @@ description = "Default layout"
         <link href="{{ 'assets/styles/main.css'|theme }}" rel="stylesheet">
         {% styles %}
     </head>
-    <body class="page home">
+    <body class="page page-{{ this.page.id }}"><!-- Use these classes for all layouts, otherwise DOM routing won't work -->
 
         <!-- Header -->
         <header id="layout-header">
-            {% partial 'site/header' %}
+            {% partial 'header' %}
         </header>
 
         <!-- Content -->
@@ -28,7 +28,7 @@ description = "Default layout"
 
         <!-- Footer -->
         <footer id="layout-footer">
-            {% partial 'site/footer' %}
+            {% partial 'footer' %}
         </footer>
 
         <!-- Scripts -->
