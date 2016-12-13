@@ -1,2 +1,3 @@
+1.1.1: Fixed issue with newer versions of Node.js and gulp-if. Please update node packages.
 1.1.0: Implemented DOM Routing
 1.0.0: Theme initialization
