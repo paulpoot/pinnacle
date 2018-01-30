@@ -5,7 +5,7 @@ Pinnacle is on the OctoberCMS Market. Check it out [here](https://octobercms.com
 
 ## Features
 * NPM, Bower and Gulp
-* Bootstrap v4 alpha 5
+* Bootstrap 4
 * FontAwesome 4
 * Browsersync
 * Asset Builder
@@ -17,8 +17,6 @@ Pinnacle is on the OctoberCMS Market. Check it out [here](https://octobercms.com
 ## Requirements
 * See requirements for OctoberCMS. You can find them [here](https://octobercms.com/docs/setup/installation#system-requirements).
 * Node.js
-
-I personally use Node.js 4.4.4, but newer versions of Node.js should work as well now.
 
 ## Installation
 1. Install OctoberCMS. See the instructions [here](https://octobercms.com/docs/setup/installation).

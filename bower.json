@@ -1,23 +1,24 @@
 {
   "name": "pinnacle",
   "authors": [
-    "Paul Poot <info@paulpoot.eu>"
+    "Paul Poot <dev@paulpoot.me>"
   ],
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.5",
-    "slick-carousel": "^1.5.9",
-    "font-awesome": "fontawesome#^4.5.0",
+    "bootstrap": "^4.0.0",
+    "slick-carousel": "^1.8.1",
+    "font-awesome": "fontawesome#^4.7.0",
     "imgLiquid": "^0.9.944",
     "modernizr": "2.8.2",
-    "velocity": "1.2.3"
+    "velocity": "1.2.3",
+    "popper.js": "^1.12.9"
   },
   "overrides": {
     "bootstrap": {
       "main": [
         "./scss/bootstrap.scss*",
-        "./dist/js/bootstrap.min.js*"
+        "./dist/js/bootstrap.bundle.js*"
       ]
     },
     "font-awesome": {

@@ -30,6 +30,9 @@
     },
     "velocity.js": {
       "bower": ["velocity"]
+    },
+    "popper.js": {
+      "bower": ["popper.js"]
     }
   },
   "paths": {

@@ -1,3 +1,4 @@
+1.2.0: Upgraded dependencies, now uses release version of Bootstrap 4 with Popper.js.
 1.1.1: Fixed issue with newer versions of Node.js and gulp-if. Please update node packages.
-1.1.0: Implemented DOM Routing
-1.0.0: Theme initialization
+1.1.0: Implemented DOM Routing.
+1.0.0: Theme initialization.
